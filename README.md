@@ -1,0 +1,2 @@
+# Cool_Project_Stock_Price_Prediction
+Проект студентов МОВС
