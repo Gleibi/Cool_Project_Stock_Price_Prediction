@@ -6,7 +6,7 @@ from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
 from aiogram.enums import ParseMode
 
-from Bot.keyboards.for_questions import get_company
+from keyboards.for_questions import get_company
 
 
 class GetInfo(StatesGroup):

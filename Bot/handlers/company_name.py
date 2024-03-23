@@ -3,9 +3,9 @@ from aiogram.types import Message, ReplyKeyboardRemove
 from aiogram.fsm.context import FSMContext
 from aiogram.enums import ParseMode
 
-from Bot.charts import get_data
-from Bot.keyboards.for_questions import get_company
-from Bot.handlers.main_state import GetInfo
+from charts import get_data
+from keyboards.for_questions import get_company
+from handlers.main_state import GetInfo
 
 router = Router()
 

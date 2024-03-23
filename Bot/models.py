@@ -5,7 +5,7 @@ from pickle import load, dump
 import pandas as pd
 from datetime import timedelta
 
-from Bot.charts import get_data
+from charts import get_data
 
 def create_time_feature(df):
 

@@ -1,7 +1,7 @@
 import asyncio
 from aiogram import Bot, Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
-from Bot.handlers import main_state, company_name, routes
+from handlers import main_state, company_name, routes
 
 from config_reader import config
 
