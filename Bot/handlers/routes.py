@@ -4,11 +4,11 @@ from aiogram.types import Message, ReplyKeyboardRemove, FSInputFile
 from aiogram.fsm.context import FSMContext
 from aiogram.enums import ParseMode
 
-from Bot.models import main_models
-from Bot.charts import get_company_info, get_data, plot_total_data, plot_candelstick_chart
-from Bot.keyboards.for_questions import get_company
-from Bot.handlers.main_state import GetInfo
-from Bot.handlers.company_name import cmd_save_company_name
+from models import main_models
+from charts import get_company_info, get_data, plot_total_data, plot_candelstick_chart
+from keyboards.for_questions import get_company
+from handlers.main_state import GetInfo
+from handlers.company_name import cmd_save_company_name
 import os
 
 import re
